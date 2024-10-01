@@ -236,7 +236,7 @@ while selectingItems != False:
             print("No Funds")
             
     elif valid == False:
-        print("Item Not Valid")
+        print("Item Not Valid ")
         boughtItems.clear()
         finalItemList.clear()
         Terminator2(coinsPulled, currentItemPrice)
